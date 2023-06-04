@@ -1,0 +1,115 @@
+/* 
+                                            ESTO ES PAGIA PRINCIPALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+                    /* paginna principal asassd*/ 
+                  
+}
+
+/*                          ESTO ES HEADERRRRRRRRRRR                */
+
+.colornav {
+  background-color: rgb(117, 224, 54);
+  color: white;
+}
+.navletras:hover{
+  background-color: rgba(255, 255, 253, 0.74);
+}
+
+.navbar .navbar-nav .nav-item a{
+  padding: 15px;
+}
+
+.navbar .navbar-nav .nav-but{
+padding: 10px;
+}
+
+/* 
+                  ESTO ES PAGINA PRINCIPALLLLLLLLLLLLLLLL           */
+
+
+.titulo-principal{
+  text-align: center;
+}
+
+.carrusel{
+  padding-top: 22px;
+}
+
+#galeria .col-lg-4{
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria img{
+  width: 100%;
+  height: 250px;
+}
+
+/*                  tarjetas                  */
+
+
+.elcejas{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.card-title{
+  text-align: center;
+}
+.card-text{
+  text-align: center;
+}
+
+/*                     mapa             */
+.mapas{
+  display: flex;
+  justify-content: center;
+}.texto-secundario{
+  text-align: center;
+}
+                                                        
+
+.eleg{
+  text-align: center;
+}
+
+/*              PRODUCTOSSSSSSSSS           */
+.carro{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 142);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  right: 20px;
+}
+.Span{
+  
+  position: absolute;
+  background-color: yellow;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  left: 25px;
+  top: 25px;
+}
+
+
+
+
+                                        /*foooter */
+
+footer{
+   text-align: center;
+   justify-content: center;
+}
