@@ -4,24 +4,24 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="el mejor restaurant de todo buenos aires, la mejor zona y la mas alta comodida en un solo lugar">
-        <meta name="keywords" content="Pizzas, empanadas, comodidad, zona sur, ">
+        <meta name="description" content="Los mejores componentes y mas baratos en un solo lugar">
+        <meta name="keywords" content="barato, nvidia, amd, componentes, pc">
         <title>Gamer premium</title>
         <!--favicon (icono de la pagina)-->
         <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
         <script src="https://kit.fontawesome.com/ec2fbfe4a0.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!--estilos css-->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
 
     </head>
     <body>
+      <!--
       <div class="carro">
-        <i class="fa-regular fa-cart-shopping"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
         <span id="carritoCantidad">0</span>
       </div>
-
+-->
 
         <header>
             
@@ -58,6 +58,22 @@
                     </li>
       
                   </ul>
+
+             <!--agrege yo recien-->
+             <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal"
+                >
+                  <i class="fa-solid fa-cart-shopping" id="carritoContenedor">0</i>
+                </a>
+              </li>
+            </ul>
+
+
+                </ul>
                 </div>
             </div>
           </nav>
@@ -65,74 +81,14 @@
         </header>
 
 
+        <main>
+          <h1 class="text-center">Los mejores precios aqui</h1>
+            <div class="row-5 mt-5" id="contenedor"></div>
+          </main>
+         
 
 
-
-        <body>
-          <h1 class="text-center"> Los mejores Precios en 1 solo lugar</h1>
-   
-          <div class="row mx-5">
-            
-            <div class="col ml-5">
-              <div class="card" style="width: 18rem;">
-                <img src="../assets/img/monitor24.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Monitor samsung zorix</h5>
-                  <p class="card-text">Monitor samsung 24 pulgadas, 1ms de respuesta, 144 hz</p>
-                  
-                  <form id="producto01">
-                    <input type="number" name="cantidadProductos" value="1" min="1"> 
-                    <button type="submit"> agregar al carrito</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-    
-
-        <div class="col ml-5">
-          <div class="card" style="width: 18rem;">
-            <img src="../assets/img/Moousezowie.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mouse Gamer Zowie Za11-b</h5>
-              <p class="card-text">Sensor 3360, tecnología "plug and play", Ajuste de 3200 DPI</p>
-              
-              <form id="producto02">
-                <input type="number" name="cantidadProductos" value="1" min="1"> 
-                <button type="submit"> agregar al carrito</button>
-              </form>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col ml-5">
-          <div class="card" style="width: 18rem;">
-            <img src="../assets/img/Mousepad.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">MousePad logietch g40</h5>
-              <p class="card-text">MousePad control de tela y goma, 430 cm x 600 cm</p>
-              
-              <form id="producto03">
-                <input type="number" name="cantidadProductos" value="1" min="1"> 
-                <button type="submit"> agregar al carrito</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-   
-        </body>
-
-
-
-
-
-
-
-
-
-
-
+          
           <footer class="container-fluid">
             <div class="row p-5  pb-2 bg-dark text-white">
     
@@ -181,6 +137,8 @@
               </div>
 
             </footer>
+
+            
             <script src="../js/main.js"></script>
           <script src="../js/bootstrap.bundle.min.js"></script>   
 

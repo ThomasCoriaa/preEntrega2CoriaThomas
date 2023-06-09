@@ -1,13 +1,8 @@
-/* 
-                                            ESTO ES PAGIA PRINCIPALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
-*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
-                    /* paginna principal asassd*/ 
-                  
+   box-sizing: border-box;              
 }
 
 /*                          ESTO ES HEADERRRRRRRRRRR                */
@@ -78,34 +73,12 @@ padding: 10px;
 }
 
 /*              PRODUCTOSSSSSSSSS           */
-.carro{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: rgb(255, 255, 142);
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 20px;
-  right: 20px;
+
+
+#contenedor{
+    display: flex;
+    justify-content: space-around;
 }
-.Span{
-  
-  position: absolute;
-  background-color: yellow;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  font-size: 11px;
-  text-align: center;
-  color: white;
-  left: 25px;
-  top: 25px;
-}
-
-
-
 
                                         /*foooter */
 
