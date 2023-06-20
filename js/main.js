@@ -54,6 +54,8 @@ const stockProductos = [
 },
 ]
 
+let carrito = []
+
 const contenedor = document.querySelector('#contenedor')
 
 
@@ -74,11 +76,32 @@ stockProductos.forEach((prod) =>{
 })
 
 function agregarProducto(id){
-    const item = stockProductos.find((prod) => prod.id == id)
- alert(id)
+    const item = stockProductos.find((prod) => prod.id === id)
+    carrito.push(item)
+    mostrarCarrito()
 }
 
+const mostrarCarrito = () => {
+    const modalBody = document.querySelector(".modal .modal-body")
+   
 
+modalBody.innerHTML = "";
+carrito.forEach((prod) => {
+    const {id, nombre, img, cantidad, precio} = prod
+    modalbody.innerHTML += `
+    <div class="modal-contenedor">
+        <div>
+        <img class="img-fluid img-carrito" src="${img}"/>
+        </div>
+        <div>
+        <p>Producto: ${nombre}</p>
+      <p>Precio: ${precio}</p>
+      <p>Cantidad :${cantidad}</p>
+      <button class="btn btn-danger"  onclick="eliminarProducto(${id})">Eliminar producto</button>
+        </div>
+      </div>
+      `
+})}
 
 
 
